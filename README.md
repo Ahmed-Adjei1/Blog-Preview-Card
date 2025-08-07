@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Ahmed-Adjei1/Blog-Preview-Card)
+- Live Site URL: [Add live site URL here](https://ahmed-adjei1.github.io/Blog-Preview-Card/)
 
 ## My process
 
