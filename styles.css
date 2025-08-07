@@ -1,0 +1,76 @@
+body {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  border: 1px solid;
+  border-radius: 5%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  box-shadow: 10px 10px;
+  margin-top: 95px;
+}
+
+p {
+    /* font size renders with regards to viewport width */
+  font-size: clamp(10px, 2.5vw, 16px);
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+}
+
+.image1 {
+  border-radius: 5%;
+}
+
+h4 {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  width: fit-content;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  /* font size renders with regards to viewport width */
+  font-size: clamp(10px, 2.5vw, 16px);
+}
+
+a:hover,
+a:focus {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: color 0.5s ease;
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image2 {
+  height: 35px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 200px;
+    }
+
+    .image1 {
+        width: 200px;
+    }
+}
