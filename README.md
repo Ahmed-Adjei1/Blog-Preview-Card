@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![active state](./Designs/active-state.PNG)
-![mobile](./Designs/mobile.PNG)
-![desktop](./Designs/desktop.PNG)
+![active state](./Designs/active-state.png)
+![mobile](./Designs/mobile.png)
+![desktop](./Designs/desktop.png)
 
 
 ### Links
